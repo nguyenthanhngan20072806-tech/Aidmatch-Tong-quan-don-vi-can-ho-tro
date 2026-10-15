@@ -52,7 +52,6 @@ body > * {
     z-index: 1;
 }
 
-/* Header */
 .header {
     height: 70px;
     background: #ffffff;
@@ -114,17 +113,6 @@ body > * {
     display: block;
 }
 
-.icon-btn {
-    background: none;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-    position: relative;
-    color: var(--text-secondary);
-}
-
-
-
 .user-profile {
     display: flex;
     align-items: center;
@@ -157,7 +145,6 @@ body > * {
     color: var(--text-secondary);
 }
 
-/* Main Container Layout */
 .main-container {
     display: grid;
     grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -191,7 +178,7 @@ body > * {
     color: var(--text-secondary);
     line-height: 1.4;
 }
-/* Sidebar */
+
 .sidebar {
     width: auto;
     background: #ffffff;
@@ -260,7 +247,6 @@ body > * {
     color: white;
 }
 
-/* Workspace */
 .workspace {
     min-width: 0;
     padding: 0;
@@ -295,7 +281,6 @@ body > * {
     background: var(--primary-dark);
 }
 
-/* Stats Grid */
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -329,9 +314,6 @@ body > * {
     color: var(--text-secondary);
 }
 
-
-
-/* Alert Banner */
 .alert-banner {
     background: #fffbeb;
     border: 1px solid #fde68a;
@@ -371,7 +353,6 @@ body > * {
     gap: 6px;
 }
 
-/* Content Grid */
 .content-grid {
     display: grid;
     grid-template-columns: 7fr 5fr;
@@ -403,7 +384,6 @@ body > * {
     margin-bottom: 14px;
 }
 
-/* Priority Card */
 .badge-urgent {
     background: #fee2e2;
     color: #dc2626;
@@ -512,7 +492,7 @@ body > * {
     align-items: center;
     gap: 4px;
 }
-/* Need List */
+
 .record-count {
     font-size: 12px;
     color: var(--text-secondary);
@@ -633,7 +613,7 @@ body > * {
     background: var(--blue);
     color: white;
 }
-/* Timeline */
+
 .timeline {
     list-style: none;
     padding-left: 12px;
@@ -672,7 +652,6 @@ body > * {
     font-size: 12px;
 }
 
-/* Completed Box */
 .completed-box {
     background: #f8fafc;
     border: 1px solid var(--border-color);
@@ -699,7 +678,6 @@ body > * {
     line-height: 1.4;
 }
 
-/* Footer */
 .footer {
     height: 56px;
     background: #0f172a;
@@ -725,7 +703,6 @@ body > * {
     color: white;
 }
 
-/* Responsive */
 @media (max-width: 1100px) {
     .main-container {
         grid-template-columns: 1fr;
